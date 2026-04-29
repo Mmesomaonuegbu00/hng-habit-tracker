@@ -132,7 +132,7 @@ export default function SignupForm() {
             )}
 
             <div className="space-y-2">
-              <label className="text-[10px] font-bold uppercase tracking-widest text-slate-500 ml-1">Identity Email</label>
+              <label className="text-[10px] font-bold uppercase tracking-widest text-slate-500 ml-1">Your Email</label>
               <input
                 data-testid="auth-signup-email"
                 type="email"
@@ -145,7 +145,7 @@ export default function SignupForm() {
             </div>
 
             <div className="space-y-2">
-              <label className="text-[10px] font-bold uppercase tracking-widest text-slate-500 ml-1">Access Cipher</label>
+              <label className="text-[10px] font-bold uppercase tracking-widest text-slate-500 ml-1">Password</label>
               <input
                 data-testid="auth-signup-password"
                 type="password"
